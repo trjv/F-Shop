@@ -1,0 +1,95 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 21, 2024, 10:57:24 PM
+    Author     : Admin
+*/
+
+#detail_product{
+}
+h1{
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+    max-height: 48px;
+    max-width: 665px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    vertical-align: sub;
+}
+#img_product{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom:  10px;
+}
+header {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Optional: To make text white if the background is dark */
+    padding: 20px 0; /* Optional: To add some padding */
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white; /* Make navbar links white to stand out against dark background */
+}
+.navbar-light .navbar-toggler-icon {
+    filter: invert(100%); /* Make toggler icon white */
+}
+.body{
+    background-image: url('img/blackwhite.jpg');
+}
+hr {
+    border-top: 1px solid #e7e7e7;
+    margin-bottom: 30px;
+}
+#navbarNav{
+    font-weight: bold;
+}
+.container {
+    margin-top: 20px;
+}
+.product-image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.product-details {
+    margin-bottom: 20px;
+}
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff; /* Màu sắc của giá sản phẩm */
+}
+.product-description {
+    margin-top: 20px;
+}
+.back-link {
+    margin-top: 20px;
+}
+#leftimg img {
+    border: 4px solid #ccc; /* Border dày 4px, màu xám nhạt */
+    border-radius: 25px; /* Bo góc 12px */
+    overflow: hidden; /* Đảm bảo không bị tràn nội dung nếu ảnh lớn hơn border */
+    width: 100%; /* Đảm bảo hình ảnh lấp đầy chiều rộng của khung chứa */
+    max-width: 80%; /* Giới hạn chiều rộng tối đa là 100% của khung chứa */
+    height: auto; /* Cho phép chiều cao tự động điều chỉnh tương ứng */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Bóng đổ màu xám nhạt, độ mờ 10px */
+}
+#rightinfo{
+    margin-top: 125px;
+}
+.price-section{
+    color: #000;
+    display: inline;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+}
